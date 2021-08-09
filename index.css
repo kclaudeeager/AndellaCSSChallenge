@@ -1,0 +1,119 @@
+body{
+    background-color: ghostwhite;
+    z-index: -1;
+}
+.header{
+color: hsl(0, 30%, 95%);
+font-family: "Big Shoulders Display", sans-serif;
+}
+.header #title{
+    font-size: larger;
+}
+#card1{
+background-color:hsl(31, 77%, 52%);
+padding: 50px;
+  width: 200px;
+  color:rgb(210, 220, 230);
+
+  
+}
+p{
+    word-wrap: break-word;
+    font-family: sans-serif;
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+.button1{
+    width: 95px;
+    border: 2px solid white;
+    padding: 6px;
+    margin: 80px 60px 20px 50px;
+    border-radius: 40px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    
+    
+}
+#container{
+    margin: 5px 20px 5px 20px;
+    width: 1200px;
+    align-content: center;
+    align-self: center;
+    display:inline;
+    position: relative;
+    padding: 30px;
+    -moz-box-shadow: 0 0 3px #ccc;
+-webkit-box-shadow: 0 0 3px #ccc;
+box-shadow: 0 0 3px #ccc;
+    
+    z-index: 1;
+}
+#card2{
+    
+    background-color:hsl(184, 100%, 22%);
+    padding: 50px 50px 50px 50px;
+      width: 200px;
+      color:rgb(210, 220, 230);
+
+    }
+    p{
+        font-size: 15px;
+    line-height: 1.6;
+       
+    }
+
+    .button2{
+        width: 95px;
+        border: 2px solid white;
+        padding: 6px;
+        margin: 80px 60px 20px 50px;
+        border-radius: 40px;
+        background-color: white;
+        color:hsl(184, 100%, 22%);
+        cursor: pointer;
+        font-family: "Lexend Deca", sans-serif;
+    
+    }
+    .button3{
+        width: 95px;
+        border: 2px solid white;
+        padding: 6px;
+        margin: 80px 60px 20px 50px;
+        border-radius: 40px;
+        background-color: white;
+        color:hsl(179, 100%, 13%);
+        cursor: pointer;
+        font-family: "Lexend Deca", sans-serif;
+        
+    }
+
+
+    #card3{
+        
+        background-color:hsl(179, 100%, 13%);
+        padding: 50px;
+          width: 200px;
+     
+          color:rgb(210, 220, 230);
+        }
+
+@media (min-width: 992px){
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 600px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+ 
+
+    /* #container{  display: flex; margin: 10px;} */
+   
+    
+  }
